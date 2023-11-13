@@ -1328,7 +1328,7 @@
         </view>
         <style>
           <style-rule element='cell'>
-            <format attr='width' field='[federated.05xxpd20mcndbk14omh3f0lrw6qn].[none:Day_Of_Week:nk]' value='73' />
+            <format attr='width' field='[federated.05xxpd20mcndbk14omh3f0lrw6qn].[none:Day_Of_Week:nk]' value='91' />
           </style-rule>
         </style>
         <panes>
@@ -1369,12 +1369,12 @@
   <dashboards>
     <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Consumption'>
       <style />
-      <size maxheight='800' maxwidth='1920' minheight='800' minwidth='1920' sizing-mode='fixed' />
+      <size maxheight='900' maxwidth='1600' minheight='900' minwidth='1600' sizing-mode='fixed' />
       <zones>
         <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
-          <zone h='98000' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
-            <zone h='98000' id='5' type-v2='layout-basic' w='88400' x='800' y='1000'>
-              <zone h='49000' id='3' name='BreakFast Consumption' w='44200' x='800' y='1000'>
+          <zone h='98222' id='7' param='horz' type-v2='layout-flow' w='99000' x='500' y='889'>
+            <zone h='98222' id='5' type-v2='layout-basic' w='92750' x='500' y='889'>
+              <zone h='49111' id='3' name='BreakFast Consumption' w='46374' x='500' y='889'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -1382,7 +1382,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='49000' id='9' name='Lunch Consumption' w='44200' x='45000' y='1000'>
+              <zone h='49111' id='9' name='Lunch Consumption' w='46376' x='46874' y='889'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -1390,7 +1390,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='49000' id='10' name='Snacks Consumption' w='44200' x='800' y='50000'>
+              <zone h='49111' id='10' name='Snacks Consumption' w='46374' x='500' y='50000'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -1398,7 +1398,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='49000' id='11' name='Dinner Consumption' w='44200' x='45000' y='50000'>
+              <zone h='49111' id='11' name='Dinner Consumption' w='46376' x='46874' y='50000'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -1407,8 +1407,8 @@
                 </zone-style>
               </zone>
             </zone>
-            <zone fixed-size='100' h='98000' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='10000' x='89200' y='1000'>
-              <zone h='22125' id='8' name='BreakFast Consumption' pane-specification-id='3' param='[federated.05xxpd20mcndbk14omh3f0lrw6qn].[none:Day_Of_Week:nk]' type-v2='color' w='10000' x='89200' y='1000'>
+            <zone fixed-size='100' h='98222' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='6250' x='93250' y='889'>
+              <zone h='19667' id='8' name='BreakFast Consumption' pane-specification-id='3' param='[federated.05xxpd20mcndbk14omh3f0lrw6qn].[none:Day_Of_Week:nk]' type-v2='color' w='6250' x='93250' y='889'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -1445,7 +1445,7 @@
       <simple-id uuid='{3DA8CAA1-18A2-41CB-8AB3-F8F3F935F3E4}' />
     </dashboard>
   </dashboards>
-  <windows source-height='37'>
+  <windows show-side-pane='false' source-height='37'>
     <window class='worksheet' name='Consumer vs Wastage'>
       <cards>
         <edge name='left'>
@@ -1553,7 +1553,7 @@
       </cards>
       <simple-id uuid='{A9E03D80-127C-4C03-8464-6A4B392D4562}' />
     </window>
-    <window class='worksheet' name='MenuVise Split westage'>
+    <window class='worksheet' maximized='true' name='MenuVise Split westage'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -1707,7 +1707,7 @@
       </viewpoint>
       <simple-id uuid='{54B68016-07A5-4F6E-8C9F-E4B3E9D16EE4}' />
     </window>
-    <window class='dashboard' maximized='true' name='Consumption'>
+    <window class='dashboard' name='Consumption'>
       <viewpoints>
         <viewpoint name='BreakFast Consumption'>
           <zoom type='entire-view' />
